@@ -1,5 +1,5 @@
 ## Docker image for Apache Drill in Distributed Mode ##
-Maintainer Bigstep Cloud Ltd. Alex Bordei
+Maintainer **Bigstep Cloud Ltd.** Alex Bordei
 
 The following environment variables can be modified and have the following default values:
 ```
