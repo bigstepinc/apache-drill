@@ -15,4 +15,4 @@ export DRILL_JAVA_OPTS="-Xms$DRILL_HEAP -Xmx$DRILL_HEAP -XX:MaxDirectMemorySize=
 export SERVER_GC_OPTS="-XX:+CMSClassUnloadingEnabled -XX:+UseG1GC "
 
 
-echo "drill.exec:{ cluster-id: \"$DRILL_CLUSTER\", zk.connect: \"$ZOOKEEPER\"}" > /opt/drill/apache-drill-1.1.0/conf/drill-override.conf
+echo "drill.exec:{ cluster-id: \"$DRILL_CLUSTER\", zk.connect: \"$ZOOKEEPER\"}" > /opt/drill/apache-drill-1.4.0/conf/drill-override.conf
